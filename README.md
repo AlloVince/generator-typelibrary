@@ -1,19 +1,19 @@
-# generator-tslibrary [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# generator-typelibrary [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > 
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-tslibrary using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-typelibrary using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g generator-tslibrary
+npm install -g generator-typelibrary
 ```
 
 Then generate your new project:
 
 ```bash
-yo tslibrary
+yo typelibrary
 ```
 
 ## Getting To Know Yeoman
@@ -28,9 +28,9 @@ yo tslibrary
 MIT © [AlloVince]()
 
 
-[npm-image]: https://badge.fury.io/js/generator-tslibrary.svg
-[npm-url]: https://npmjs.org/package/generator-tslibrary
-[travis-image]: https://travis-ci.org/AlloVince/generator-tslibrary.svg?branch=master
-[travis-url]: https://travis-ci.org/AlloVince/generator-tslibrary
-[daviddm-image]: https://david-dm.org/AlloVince/generator-tslibrary.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/AlloVince/generator-tslibrary
+[npm-image]: https://badge.fury.io/js/generator-typelibrary.svg
+[npm-url]: https://npmjs.org/package/generator-typelibrary
+[travis-image]: https://travis-ci.org/AlloVince/generator-typelibrary.svg?branch=master
+[travis-url]: https://travis-ci.org/AlloVince/generator-typelibrary
+[daviddm-image]: https://david-dm.org/AlloVince/generator-typelibrary.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/AlloVince/generator-typelibrary
