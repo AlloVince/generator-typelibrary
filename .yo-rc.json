@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "AlloVince",
+      "authorEmail": "allo.vince@gmail.com",
+      "authorUrl": "https://avnpc.com"
+    }
+  }
+}
