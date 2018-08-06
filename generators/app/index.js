@@ -16,7 +16,7 @@ module.exports = class extends Generator {
       {
         name: 'projectName',
         message: 'Your project name',
-        default: true
+        required: true
       }
     ];
 

@@ -1,5 +1,16 @@
-# generator-typelibrary [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> 
+# generator-typelibrary 
+
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+
+A yeoman generator for Typescript module.
+
+## Features
+
+ * Use `tsc` as compiler without babel
+ * Use [ava](https://github.com/avajs/ava) as test framework
+ * Use `tslint` + [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) as code linter
+ * Use [semantic-release](https://github.com/semantic-release/semantic-release) to release and publishing
+ * License generation support
 
 ## Installation
 
@@ -16,12 +27,22 @@ Then generate your new project:
 yo typelibrary
 ```
 
-## Getting To Know Yeoman
+## Project Directory Structure
 
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
+```
+projectRoot
+├── LICENSE
+├── README.md
+├── codecov.yml
+├── index.js
+├── package.json
+├── src
+│   └── index.ts
+├── test
+│   └── index.ts
+├── tsconfig.json
+└── tslint.json
+```
 
 ## License
 
