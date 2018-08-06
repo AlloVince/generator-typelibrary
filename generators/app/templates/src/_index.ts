@@ -1,1 +1,3 @@
-//your source code here
+// your source code here
+
+export const foo = () => 'bar';
